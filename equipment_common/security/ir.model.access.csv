@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+equipment_employee,equipment.equipment - user,model_equipment_equipment,base.group_user,1,1,1,1
+equipment_all,equipment.equipment - all,model_equipment_equipment,,0,0,0,0
