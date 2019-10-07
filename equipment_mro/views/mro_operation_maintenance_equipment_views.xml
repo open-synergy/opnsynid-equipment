@@ -34,6 +34,16 @@
     </field>
 </record>
 
+<record id="mro_operation_maintenance_equipment_view_kanban" model="ir.ui.view">
+    <field name="name">mro.operation_maintenance_equipment.kanban</field>
+    <field name="model">mro.operation_maintenance_equipment</field>
+    <field name="inherit_id" ref="mro_common.mro_operation_maintenance_common_view_kanban"/>
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data/>
+    </field>
+</record>
+
 <record id="mro_operation_maintenance_equipment_view_form" model="ir.ui.view">
     <field name="name">mro.operation_maintenance_equipment form</field>
     <field name="model">mro.operation_maintenance_equipment</field>
@@ -49,7 +59,7 @@
     <field name="type">ir.actions.act_window</field>
     <field name="res_model">mro.operation_maintenance_equipment</field>
     <field name="view_type">form</field>
-    <field name="view_mode">tree,calendar,form</field>
+    <field name="view_mode">kanban,tree,calendar,form</field>
 </record>
 
 <menuitem
